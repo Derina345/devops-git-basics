@@ -1,0 +1,30 @@
+
+
+# Create project folder
+mkdir devops-git-basics
+cd devops-git-basics
+
+# Initialize Git
+git init
+
+# Rename branch to main
+git branch -M main
+
+# Check repository status
+git status
+
+# Stage files
+git add .
+
+# Commit files
+git commit -m "Initial commit"
+
+# Connect to GitHub
+git remote add origin https://github.com/your-username/devops-git-basics.git
+
+# Push to GitHub
+git push -u origin main
+
+# Check remote connection
+git remote -v
+
